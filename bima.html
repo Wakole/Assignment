@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<img src="C:\Users\Wakole\OneDrive\Desktop\assin\download.jpeg" alt="KABRAK UNIVERSITY">
+<style>{
+ display: flex;
+      justify-content: center;
+ display: grid;
+      place-items: center;
+
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabarak University Course Registration</title>
+
+    <style>
+        body {
+            background-color: maroon;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            background-color: : #f2f2f2;
+
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"], select, input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Kabarak University Course Registration Form</h2>
+
+<form action="#" method="post">
+    <label for="regNumber">Registration Number:</label>
+    <input type="text" id="regNumber" name="regNumber" required><br><br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Name</th>
+                <th>Lecturer</th>
+                <th>Select</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>UID</td>
+                <td>User Interface Design</td>
+                <td>Dr. Laura</td>
+                <td><input type="checkbox" name="courses[]" value="UID"></td>
+            </tr>
+            <tr>
+                <td>PROP</td>
+                <td>Research proposal</td>
+                <td>Mr. Mochoge</td>
+                <td><input type="checkbox" name="courses[]" value="PROP"></td>
+            </tr>
+            <tr>
+                <td>WEB-425</td>
+                <td>Issues in Web design</td>
+                <td>Ms. Mercy</td>
+                <td><input type="checkbox" name="courses[]" value="WEB-425"></td>
+            </tr>
+            <tr>
+                <td>MMS</td>
+                <td>Multimedia Systems</td>
+                <td>Mr. Mochoge</td>
+                <td><input type="checkbox" name="courses[]" value="MMS"></td>
+            </tr>
+            <tr>
+                <td>NET430</td>
+                <td>Network Administration</td>
+                <td>Prof. Alukwe</td>
+                <td><input type="checkbox" name="courses[]" value="NET430"></td>
+            </tr>
+            <tr>
+                <td>BMGT414</td>
+                <td>Enterprenuership</td>
+                <td>Prof. Rono</td>
+                <td><input type="checkbox" name="courses[]" value="BMGT414"></td>
+            </tr>
+            <tr>
+                <td>AND 450</td>
+                <td>Android tudio</td>
+                <td>Dr. Ruth Oginga</td>
+                <td><input type="checkbox" name="courses[]" value="AND 450"></td>
+            </tr>
+            <tr>
+                <td>AI 480</td>
+                <td>Artificial Intelligence</td>
+                <td>Prof. Andrew Kipkebut</td>
+                <td><input type="checkbox" name="courses[]" value="AI 480"></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
+    <br>
+
+    <label for="lecturerAssign">Assign Lecturer:</label>
+    <select id="lecturerAssign" name="lecturerAssign">
+        <option value="Dr. Laura">Dr. Laura</option>
+        <option value="Mr. Mochoge">Mr. Mochoge</option>
+        <option value="Ms. Mercy">Ms. Mercy</option>
+        <option value="Mr. Mochoge">Mr. Mochoge</option>
+        <option value="Prof. Alukwe">Prof. Alukwe</option>
+        <option value="Prof. Andrew Kipkebut">Prof. Andrew Kipkebut</option>
+        <option value="Prof. Rono">Prof. Rono</option>
+        
+    </select>
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
